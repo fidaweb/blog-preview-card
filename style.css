@@ -26,51 +26,72 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    
     gap: 2rem;
     
 
 }
 .card{
+    margin-top: 7rem;
+    border: 2px solid black;
+    
     width: 20rem;
-   height:28rem ;
+   
     background-color: var(--White);
-    padding: 1rem;
+    
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
     border-radius: 20px;
-    gap: 2rem;
     box-shadow: 10px 10px 0px var(--Black);
+    padding: 1rem;
+   
+    
 }
 .picture{
+    display: block;
+    
+    width: 100%;
+   
     border-radius: 20px;
+    
+    
 }
 .intro{
+    
     display: flex;
     flex-direction: column;
     align-items: left;
-    gap: 0.5rem;
-    
+    padding: 1rem;
+    gap: 0.5rem;    
+    margin-bottom: auto;
+    margin-right: auto;
 }
 .learning{
-    max-width: 120px;
+    max-width: 100px;
     background-color: var(--Yellow);
     color: var(--Black);
-    padding: 0.2rem;
+  
     text-align: center;
     border-radius: 3px;
     font-weight: 800;
 }
-.details{
-    padding: auto;
-}
+
 .text{
-    margin-top: -1rem;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    padding-left: 1rem;
+    
+    gap: 0.5rem;
+    margin-bottom: auto;
+    margin-right: auto;
+ 
 }
 .title{
     font-size: 20px;
@@ -80,18 +101,26 @@ body{
     border: none;
     font-weight: 800;
     width: 100%;
+    cursor: pointer;
 }
 .title:hover{
     color: var(--Yellow);
+
 }
 .description{
     text-align: left;
     line-height: 1.2;
 }
 .user{
+   
     display: flex;
-    gap: 1rem;
-    margin-top: -1rem;
+    gap: 0.5rem;
+    /* padding-left: 1rem; */
+    align-items: center;
+    margin-right: auto;
+   padding: 1rem; 
+   /* padding-bottom: 3rem; */
+    
 }
 .user-pic{
     border-radius: 50%;
