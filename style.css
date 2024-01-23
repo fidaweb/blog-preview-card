@@ -31,8 +31,8 @@ body{
 
 }
 .card{
-    max-width: 20rem;
-    max-height:30rem ;
+    width: 20rem;
+   height:30rem ;
     background-color: var(--White);
     padding: 1rem;
     display: flex;
@@ -72,10 +72,15 @@ body{
 }
 .title{
     font-size: 20px;
-    color: var(--Yellow);
+    color: var(--Black);
     text-align: left;
-    
+    background-color: var(--White);
+    border: none;
+    font-weight: 800;
     width: 100%;
+}
+.title:hover{
+    color: var(--Yellow);
 }
 .description{
     text-align: left;
