@@ -1,3 +1,4 @@
+# You can find deployed site at https://fidaweb.github.io/blog-preview-card/
 # Frontend Mentor - Blog preview card
 
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
